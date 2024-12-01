@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Assistant</title>
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div id="nav-content">
+      Ever interacted with a virtual assistant? Let's give it a go!
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <section class="main-section">
+    <div class="content-left">
+      <h1>
+        <span class="name" id="typewriter-text"></span> <br> Your Virtual Assistant
+      </h1>
+      <img src="/img/voice.gif" alt="voice" id="voice" >
+      <button id="btn">
+        <img src="/img/mic.svg" alt="mic">
+        <span id="content">Click here to talk to me</span>
+      </button>
+    </div>
+    
+    <div class="content-right">
+      <img src="OIG3-rem" alt="virtual assistant" class="robot-image">
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+  </script>
+</body>
+</html>
